@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+h2{
+    font-family: Tahoma, sans-serif;
+    border: 1px solid red;
+    
+}
+
+.list{
+    text-align: center;
+}
+
+.list li{ 
+    width: 70px;
+    height: 24px;
+    background-color:#fecece;
+    display: inline-block;
+    text-align: center;
+    margin: 10px; 
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.list li:hover{
+    cursor: pointer;
+    background-color:#e69509;
+   border: 1px dashed rgb(255, 0 ,0 );  
+
+}
